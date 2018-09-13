@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+#The URL declarations for this Django project; a "table of contents" 
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]

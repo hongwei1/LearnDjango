@@ -2,6 +2,7 @@
 import os
 import sys
 
+# A command-line utility that lets you interact with this Django project in various ways.
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
     try:
