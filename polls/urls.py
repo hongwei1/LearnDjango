@@ -10,5 +10,6 @@ urlpatterns = [
     # view   -> it is the function, with HttpRequest object as first argument, and any arguments.
     # kwargs -> Arbitrary keyword arguments can be passed in a dirctionry to the target view.
     # name   -> Naming your URL lets you refer to it unambiguously from elsewhere in Django.
-    path('', views.index, name="index")
+    path('index', views.index, name="index"),
+    path('mineOwnPratice', views.mineOwnPratice, name="mineOwnPratice")
 ]
