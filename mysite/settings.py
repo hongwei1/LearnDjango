@@ -29,14 +29,18 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# python manage.py migrate --> looks at the INSTALLED_APPS setting and creates any necesssary database tables according to the database setting 
+# and the database migrations shipped wit the app.
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin',        #1 the admin site
+    'django.contrib.auth',         #2 An authentication system
+    'django.contrib.contenttypes', #3 A framework for content types.
+    'django.contrib.sessions',     #4 A session framework
+    'django.contrib.messages',     #5 A messaging framework
+    'django.contrib.staticfiles',  #6 A framework for managing static files
+    
+    #I designed Apps: 
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
@@ -73,10 +77,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+# the default is sqlite3, ENGINE is it, and the Name should be full absolute path, including filename of that file.
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'), #This will store the file in your project directory!
     }
 }
 
@@ -105,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Berlin'
 
 USE_I18N = True
 
