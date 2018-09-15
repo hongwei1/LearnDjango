@@ -1,14 +1,31 @@
 # https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view
+from typing import Dict
 
+from django.db.models import QuerySet
 from django.http import HttpResponse
+from django.template import loader
 
 #This is callback function, need map this to a URL. and return HttpResponse. 
 #to call the view, we need to map it to a URL - add for this we need a URLconf.
 #you need create the `/Users/zhanghongwei/Documents/GitHub-Tower/LearnDjango/polls/urls.py` 
 
+# Hard code htlm in view
+# def index(request):
+#     lasest_question_list = Question.objects.order_by('-pub_date')[:5]
+#     output = ', '.join([])
+#     return HttpResponse("Hello, world. You're at the polls index. ") 
+
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index. ") 
+    lasest_question_list = Question.objects.order_by('-pub_date')[:5]
+    # the code loads template call `polls/index.html` and passes it a context
+    # the context is a dictionart mapping template variable names to Python objects
+    template = loader.get_template('polls/index.html')
+    # this is just a dictionary mapping tempalte variable names to Python objects
+    context: Dict[str, QuerySet[Question]] = {
+        'lasest_question_list': lasest_question_list,
+    }
+    return HttpResponse(template.render(context, request)) 
 
 from polls.models import Question, Choice
 from django.utils import timezone
@@ -57,3 +74,14 @@ def mineOwnPratice(request):
     
     
     return HttpResponse(a32) 
+
+# the view only do two things: HttpResponse or an exception Http404. 
+def detail(request, question_id ):
+    return HttpResponse("You are looking at question %s." % question_id)
+
+def results(request, question_id):
+    response = "you are looking at the results of question %s."
+    return HttpResponse(response % question_id)
+
+def vote(request, question_id):
+    return HttpResponse("You are voting on question %s." % question_id)

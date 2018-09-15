@@ -55,11 +55,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'mysite.urls'
 
+# describles how Django will load and render templates.
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True,
+        'APP_DIRS': True, #this mean DJango can look for a `templates` subdirectory in each of the  INSTALLED_APPS eg: LearnDjango/polls/templates, 
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
