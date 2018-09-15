@@ -27,6 +27,16 @@ def index(request):
     }
     return HttpResponse(template.render(context, request)) 
 
+#https://docs.djangoproject.com/en/2.0/topics/http/shortcuts/#django.shortcuts.render
+from django.shortcuts import render
+# the same as index, but with shortcut: render()
+# load a template --> fill a context --> return HttpResponse object ==> render()
+def index2(request):
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+    context = {'latest_question_list': latest_question_list}
+    return render(request, 'polls/index.html', context) # no need load template and reneter it by it .
+
+
 from polls.models import Question, Choice
 from django.utils import timezone
 # https://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api
