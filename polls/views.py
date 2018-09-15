@@ -86,8 +86,27 @@ def mineOwnPratice(request):
     return HttpResponse(a32) 
 
 # the view only do two things: HttpResponse or an exception Http404. 
-def detail(request, question_id ):
+def detail_old(request, question_id ):
     return HttpResponse("You are looking at question %s." % question_id)
+
+from django.http import Http404
+from django.shortcuts import render
+
+from .models import Question
+# ...
+def detail_old2(request, question_id):
+    try:
+        question = Question.objects.get(pk=question_id)
+    except Question.DoesNotExist:
+        raise Http404("Question does not exist !!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    return render(request, 'polls/detail.html', {'question': question})
+
+from django.shortcuts import get_object_or_404, render
+from .models import Question
+# ...
+def detail(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'polls/detail.html', {'question': question})
 
 def results(request, question_id):
     response = "you are looking at the results of question %s."
