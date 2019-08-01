@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9013d380-8841-4030-a548-013c3fee7126" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LearnDjango$django_admin_startproject_mysite.coverage" NAME="django-admin startproject mysite Coverage Results" MODIFIED="1536869365983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$manage.coverage" NAME="manage Coverage Results" MODIFIED="1536868499302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$runserver_8000.coverage" NAME="runserver 8000 Coverage Results" MODIFIED="1537016163599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_startapp_polls.coverage" NAME="python manage.py startapp polls Coverage Results" MODIFIED="1536868765266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$python__m_django___version.coverage" NAME="python -m django --version Coverage Results" MODIFIED="1536869313369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$runserver_8888.coverage" NAME="runserver 8000 Coverage Results" MODIFIED="1536919032385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cfe388949dd25e6548994b2fbc741b9390f85236" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Desktop/kafka" value="4521190620000" />
+        <entry key="$USER_HOME$/Desktop/spring-framework" value="5913680005000" />
+        <entry key="$PROJECT_DIR$/../../Hello-OBP-SpringBoot" value="1495091581000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../Hello-OBP-OAuth1.0a-Android" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OmiubsUqTGw2WrPcWZRbj6k28a" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Method signatureScala</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnusedLocalInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/polls/templates/polls" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/polls/templates/polls" />
+      <recent name="$PROJECT_DIR$/HHH_test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.python manage.py sqlmigrate polls 0001">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="django-admin startproject mysite" type="PythonConfigurationType" factoryName="Python">
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="django-admin startproject mysite" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python -m django --version" type="PythonConfigurationType" factoryName="Python">
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="-m django --version" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python manage.py makemigrations polls" type="PythonConfigurationType" factoryName="Python">
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="makemigrations polls" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python manage.py sqlmigrate polls 0001" type="PythonConfigurationType" factoryName="Python">
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="sqlmigrate polls 0001" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python manage.py startapp polls" type="PythonConfigurationType" factoryName="Python">
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="startapp polls" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runserver 8000" type="PythonConfigurationType" factoryName="Python">
+      <output_file path="$PROJECT_DIR$/HHH_test/1.log" is_save="true" />
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver 8000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python manage.py migrate" />
+      <item itemvalue="Python.runserver 8000" />
+      <item itemvalue="Python.python manage.py makemigrations polls" />
+      <item itemvalue="Python.python -m django --version" />
+      <item itemvalue="Python.django-admin startproject mysite" />
+      <item itemvalue="Python.python manage.py startapp polls" />
+      <item itemvalue="Python.python manage.py sqlmigrate polls 0001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Desktop/akka-quickstart-scala" value="1499609700000" />
+        <entry key="$USER_HOME$/Desktop/akka-tutorials/akka-http-client" value="1501150565000" />
+        <entry key="$USER_HOME$/Desktop/dmarsh-scalakoansexercises-ebbe18119d70" value="1431795048000" />
+        <entry key="$USER_HOME$/Desktop/learnSbt/L1" value="1507388749000" />
+        <entry key="$USER_HOME$/Desktop/lift-lift_26_sbt-3c4742e/scala_211/lift_basic" value="1452747854000" />
+        <entry key="$USER_HOME$/Desktop/lift-lift_30_sbt-5f1926c/lift_basic" value="1476108002000" />
+        <entry key="$USER_HOME$/Desktop/myLift/lift-chat-tutorial" value="1476108002000" />
+        <entry key="$USER_HOME$/Desktop/quiz-management-service/akka-http-crud" value="1501150922000" />
+        <entry key="$USER_HOME$/Desktop/releases/play-ws" value="1501162795000" />
+        <entry key="$USER_HOME$/Desktop/testingscala" value="1478384382000" />
+        <entry key="$PROJECT_DIR$/../../OBP-Adapter_Leumi" value="1506936525000" />
+        <entry key="$PROJECT_DIR$/../../OBP-Scala-South" value="1497947196000" />
+        <entry key="$PROJECT_DIR$/../../ScalaKoans" value="1431795048000" />
+        <entry key="$PROJECT_DIR$/../../avro4s" value="1502184117000" />
+        <entry key="$PROJECT_DIR$/../../learnAkka" value="1500313498000" />
+        <entry key="$PROJECT_DIR$/../../scala-koans" value="1509216076000" />
+        <entry key="$USER_HOME$/workidea/Github-Pull/OBP-API" value="1478427594000" />
+        <entry key="$USER_HOME$/workidea/Github-Pull/Social-Finance" value="1478429773000" />
+        <entry key="$USER_HOME$/workspaceScala/ScalaKoans" value="1431795048000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/akka-quickstart-scala" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/testSwagger/samples/server/petstore/scalatra" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../LearnLiftweb" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../LearnLiftweb1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../LearnSBT/hello" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../akka-kafka-request-response-poc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kafka-manager" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../reactive-kafka-scala-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sbt-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scala-code-gen" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scala-macro-debug" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalacache" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalagen" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalameta-sbt-codegen" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalameta-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalaxb-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalaxb-soap-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../xsbt-web-plugin" value="PREVIEW" />
+        <entry key="$USER_HOME$/workspaceScala/LoveScala" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9013d380-8841-4030-a548-013c3fee7126" name="Default Changelist" comment="" />
+      <created>1536866967461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536866967461</updated>
+      <workItem from="1536866968692" duration="535000" />
+      <workItem from="1536867653611" duration="22259000" />
+      <workItem from="1536946947801" duration="5938000" />
+      <workItem from="1537015910965" duration="5056000" />
+      <workItem from="1564589398147" duration="1156000" />
+      <workItem from="1564590645698" duration="9000" />
+      <workItem from="1564590667134" duration="352000" />
+      <workItem from="1564591038018" duration="309000" />
+      <workItem from="1564647443472" duration="2645000" />
+    </task>
+    <task id="LOCAL-00001" summary="https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
+      <created>1536867226778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536867226778</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed merge">
+      <created>1536867464458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536867464458</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed merge2">
+      <created>1536867705445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536867705445</updated>
+    </task>
+    <task id="LOCAL-00004" summary="python manage.py startapp polls&#10;&#10;#https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
+      <created>1536869447289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536869447289</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create the first app polls&#10;&#10;#https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
+      <created>1536871607946</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536871607946</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create the first app polls&#10;&#10;#https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
+      <created>1536872263791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536872263791</updated>
+    </task>
+    <task id="LOCAL-00007" summary="set up the database&#10;&#10;#https://docs.djangoproject.com/en/2.0/intro/tutorial02/">
+      <created>1536903485491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536903485491</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tutorial2: Playing with database api&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api">
+      <created>1536916539127</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536916539127</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tutorial2: Playing with database api&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api">
+      <created>1536919075544</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536919075544</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tutorial2: Introducing the Django Admin&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api">
+      <created>1536947914260</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536947914260</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Tutorial2: Introducing the Django Admin&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#write-views-that-actually-do-somethinghttps://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api">
+      <created>1536994346495</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1536994346495</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tutorial2: Write views that actually do something&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#write-views-that-actually-do-something">
+      <created>1536994376858</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1536994376858</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tutorial2: Write views that actually do something&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#write-views-that-actually-do-something">
+      <created>1537016667238</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1537016667238</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tutorial2: A shortcut: render()&#10;&#10;https://docs.djangoproject.com/en/2.0/topics/http/shortcuts/#django.shortcuts.render">
+      <created>1537017056805</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1537017056805</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Tutorial2: A shortcuts&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#a-shortcut-get-object-or-404">
+      <created>1537018512744</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1537018512744</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Tutorial2: A shortcuts, URLNamespace&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#a-shortcut-get-object-or-404">
+      <created>1537020616946</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1537020616946</updated>
+    </task>
+    <task id="LOCAL-00017" summary="store the .idea to github">
+      <created>1564652632989</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564652632989</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="https://docs.djangoproject.com/en/2.0/intro/tutorial01/" />
+    <MESSAGE value="fixed merge" />
+    <MESSAGE value="fixed merge2" />
+    <MESSAGE value="python manage.py startapp polls&#10;&#10;#https://docs.djangoproject.com/en/2.0/intro/tutorial01/" />
+    <MESSAGE value="create the first app polls&#10;&#10;#https://docs.djangoproject.com/en/2.0/intro/tutorial01/" />
+    <MESSAGE value="set up the database&#10;&#10;#https://docs.djangoproject.com/en/2.0/intro/tutorial02/" />
+    <MESSAGE value="Tutorial2: Playing with database api&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api" />
+    <MESSAGE value="Tutorial2: Introducing the Django Admin&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api" />
+    <MESSAGE value="Tutorial2: Introducing the Django Admin&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#write-views-that-actually-do-somethinghttps://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api" />
+    <MESSAGE value="Tutorial2: Write views that actually do something&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#write-views-that-actually-do-something" />
+    <MESSAGE value="Tutorial2: A shortcut: render()&#10;&#10;https://docs.djangoproject.com/en/2.0/topics/http/shortcuts/#django.shortcuts.render" />
+    <MESSAGE value="Tutorial2: A shortcuts&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#a-shortcut-get-object-or-404" />
+    <MESSAGE value="Tutorial2: A shortcuts, URLNamespace&#10;&#10;https://docs.djangoproject.com/en/2.0/intro/tutorial03/#a-shortcut-get-object-or-404" />
+    <MESSAGE value="store the .idea to github" />
+    <option name="LAST_COMMIT_MESSAGE" value="store the .idea to github" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LearnDjango$runserver_8000.coverage" NAME="runserver 8000 Coverage Results" MODIFIED="1564590952060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_sqlmigrate_polls_0001.coverage" NAME="python manage.py sqlmigrate polls 0001 Coverage Results" MODIFIED="1564651631827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_makemigrations_polls.coverage" NAME="python manage.py makemigrations polls Coverage Results" MODIFIED="1564650840498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_migrate.coverage" NAME="python manage.py migrate Coverage Results" MODIFIED="1564650190657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>Question.objects.filter(pub_date__year=current_year)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Question.objects.get(pub_date__year=current_year)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Python 3.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

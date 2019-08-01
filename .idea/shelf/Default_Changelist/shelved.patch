@@ -1,0 +1,73 @@
+Index: polls/views.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view\nfrom typing import Dict\n\nfrom django.db.models import QuerySet\nfrom django.http import HttpResponse\nfrom django.template import loader\n\n#This is callback function, need map this to a URL. and return HttpResponse. \n#to call the view, we need to map it to a URL - add for this we need a URLconf.\n#you need create the `/Users/zhanghongwei/Documents/GitHub-Tower/LearnDjango/polls/urls.py` \n\n# Hard code htlm in view\n# def index(request):\n#     lasest_question_list = Question.objects.order_by('-pub_date')[:5]\n#     output = ', '.join([])\n#     return HttpResponse(\"Hello, world. You're at the polls index. \") \n\n\ndef index(request):\n    lasest_question_list = Question.objects.order_by('-pub_date')[:5]\n    # the code loads template call `polls/index.html` and passes it a context\n    # the context is a dictionart mapping template variable names to Python objects\n    template = loader.get_template('polls/index.html')\n    # this is just a dictionary mapping tempalte variable names to Python objects\n    context: Dict[str, QuerySet[Question]] = {\n        'lasest_question_list': lasest_question_list,\n    }\n    return HttpResponse(template.render(context, request)) \n\n#https://docs.djangoproject.com/en/2.0/topics/http/shortcuts/#django.shortcuts.render\nfrom django.shortcuts import render\n# the same as index, but with shortcut: render()\n# load a template --> fill a context --> return HttpResponse object ==> render()\ndef index2(request):\n    latest_question_list = Question.objects.order_by('-pub_date')[:5]\n    context = {'latest_question_list': latest_question_list}\n    return render(request, 'polls/index.html', context) # no need load template and reneter it by it .\n\n\nfrom polls.models import Question, Choice\nfrom django.utils import timezone\n# https://docs.djangoproject.com/en/2.0/intro/tutorial02/#playing-with-the-api\n# I just want to have fun here, test some database apis.\ndef mineOwnPratice(request):\n    current_year = timezone.now().year\n    a19 = Question.objects.all()\n    q= Question(question_text=\"What's new ?\", pub_date=timezone.now())\n    q.save()\n    a22 = q.id\n    a23 = q.pub_date\n    a24 = q.question_text =\"What's up?\"\n    a25 = q.save()\n    a26 = Question.objects.all()\n    #Django provies a rich database lookup API that's enritely driven by keyword arguments\n    a28 = Question.objects.filter(id=1)\n    a29 = Question.objects.filter(question_text__startswith='What')\n    a30 = Question.objects.filter(pub_date__year=current_year)\n    \n    # shortcut for primary-key exact lookups.\n    a32 = Question.objects.get(pk =1)\n    a32.was_published_recently()\n    \n    #Foreign-Key, from Question -> Choice\n    a37 =  a32.choice_set.all()\n    a32.choice_set.create(choice_text=\"Not Much\", votes=0)\n    a32.choice_set.create(choice_text=\"The Sky\", votes=0)\n    a40: Choice = a32.choice_set.create(choice_text=\"Just Hacking again\", votes=0)\n    a40.question\n    a32.choice_set.all()\n    a32.choice_set.count()\n    \n    \n    # The API automtically follows relationships as far as you need.\n    # Use double underscores (__) to separate relationships. works ,as many as you want\n    #eg: question.pub_date.year == question__pub_date__year in Django\n    a49 = Choice.objects.filter(question__pub_date__year=current_year)\n    \n    #Delete one of the choices\n    a52 = a32.choice_set.filter(choice_text__startswith=\"Just Hacking\")\n    a52.delete()\n    \n    \n    \n    \n    \n    return HttpResponse(a32) \n\n# the view only do two things: HttpResponse or an exception Http404. \ndef detail_old(request, question_id ):\n    return HttpResponse(\"You are looking at question %s.\" % question_id)\n\nfrom django.http import Http404\nfrom django.shortcuts import render\n\nfrom .models import Question\n# ...\ndef detail_old2(request, question_id):\n    try:\n        question = Question.objects.get(pk=question_id)\n    except Question.DoesNotExist:\n        raise Http404(\"Question does not exist !!!!!!!!!!!!!!!!!!!!!!!!!!!\")\n    return render(request, 'polls/detail.html', {'question': question})\n\nfrom django.shortcuts import get_object_or_404, render\nfrom .models import Question\n# ...\ndef detail(request, question_id):\n    question = get_object_or_404(Question, pk=question_id)\n    return render(request, 'polls/detail.html', {'question': question})\n\ndef results(request, question_id):\n    response = \"you are looking at the results of question %s.\"\n    return HttpResponse(response % question_id)\n\ndef vote(request, question_id):\n    return HttpResponse(\"You are voting on question %s.\" % question_id)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- polls/views.py	(revision 80638f82134032aec7d59650391ebac836526a72)
++++ polls/views.py	(date 1537020911000)
+@@ -112,5 +112,32 @@
+     response = "you are looking at the results of question %s."
+     return HttpResponse(response % question_id)
+ 
++def vote_old(request, question_id):
++    return HttpResponse("You are voting on question %s." % question_id)
++
++
++from django.http import HttpResponse, HttpResponseRedirect
++from django.shortcuts import get_object_or_404, render
++from django.urls import reverse
++
++from .models import Choice, Question
++# ...
+ def vote(request, question_id):
+-    return HttpResponse("You are voting on question %s." % question_id)
+\ No newline at end of file
++    question = get_object_or_404(Question, pk=question_id)
++    try:
++        selected_choice = question.choice_set.get(pk=request.POST['choice'])
++    except (KeyError, Choice.DoesNotExist):
++        # Redisplay the question voting form.
++        return render(request,
++                      'polls/detail.html',
++                      {
++                          'question': question,
++                          'error_message': "You didn't select a choice.",
++                      })
++    else:
++        selected_choice.votes += 1
++        selected_choice.save()
++        # Always return an HttpResponseRedirect after successfully dealing
++        # with POST data. This prevents data from being posted twice if a
++        # user hits the Back button.
++        return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+Index: polls/templates/polls/detail.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><h1>{{ question.question_text }}</h1>\n<ul>\n{% for choice in question.choice_set.all %}\n    <li>{{ choice.choice_text }}</li>\n{% endfor %}\n</ul>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- polls/templates/polls/detail.html	(revision 80638f82134032aec7d59650391ebac836526a72)
++++ polls/templates/polls/detail.html	(date 1537020742000)
+@@ -1,6 +1,12 @@
+ <h1>{{ question.question_text }}</h1>
+-<ul>
+-{% for choice in question.choice_set.all %}
+-    <li>{{ choice.choice_text }}</li>
+-{% endfor %}
+-</ul>
+\ No newline at end of file
++
++{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
++
++<form action="{% url 'polls:vote' question.id %}" method="post">
++    {% csrf_token %}
++    {% for choice in question.choice_set.all %}
++        <input type="radio" name="choice" id="choice{{ forloop.counter }}"  value="{{ choice.id }}"/>
++        <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label> <br/>
++    {% endfor %}
++    <input type="submit" value="Vote"/>
++</form>
+\ No newline at end of file

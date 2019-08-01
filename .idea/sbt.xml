@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" value="$PROJECT_DIR$/../../../workspaceScala/packt-lift-howto/lift_howto_9786_sql_tpl/sbt-launch-0.11.3.jar" />
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home" />
+    <option name="vmParameters" value="-XX:MaxPermSize=384M " />
+  </component>
+</project>
