@@ -1,0 +1,14 @@
+{#latest_question_list 是用 callcontext 里面得到的 #}
+{#template.render(context, request) template 是这个 html. 参数是 context 和 request.#}
+{#然后就可以渲染这个 html 的页面了#}
+
+{% if latest_question_list %} {#  #}
+    <ul>
+    {% for question in latest_question_list %}
+        {#the default value is question.question_text, and if you click it will go to `polls/1` link, and  call `detail` method #}
+        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

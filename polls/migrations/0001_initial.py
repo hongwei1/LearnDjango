@@ -3,7 +3,8 @@
 from django.db import migrations, models
 import django.db.models.deletion
 
-
+# python manage.py makemigrations -->生成同步数据库的这个脚本代码.不会同步到数据库的.
+# python manage.py migrate   --> 正真的同步数据库,对数据库执行正真的迁移动作.
 class Migration(migrations.Migration):
 
     initial = True
