@@ -17,12 +17,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 #The URL declarations for this Django project; a "table of contents" 
-#Although you can put app `poll` to anywhere, but `mysite` is still the top level project, 
+#Although you can put app `polls` to anywhere, but `mysite` is still the top level project,
 #all the settings are under this path.
 #for this urls.py, this is the entrypoint of Django, first will search for urls here.
 urlpatterns = [
     path('admin/', admin.site.urls),# should always use include(), this is the only exception. 
-    #point the root URLconf for the poll.urls module.
+    #point the root URLconf for the polls.urls module.
     # the include() function allows referencing other URLconfs. 
     #   whenever Django encounters include(), it chops off whatever part of the URL matched up to that point.
     #   and sends the remaining string to the included URLconf for further processing.

@@ -37,6 +37,6 @@ urlpatterns = [
 #     # ex: /polls/5/vote/
 #     path('<int:question_id>/vote/', views_old.vote, name='vote'),
 #
-#     # ex:/poll/mineOwnPratice/
+#     # ex:/polls/mineOwnPratice/
 #     path('mineOwnPratice', views_old.mineOwnPratice, name="mineOwnPratice"),
 # ]
