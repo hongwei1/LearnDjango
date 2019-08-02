@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zt^q%yc9!&(iaqsz1xlcrnh5^j3^cff#e_h=en0z+epky71&66'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True, #this mean DJango can look for a `templates` subdirectory in each of the  INSTALLED_APPS eg: LearnDjango/polls/templates, 
+        'APP_DIRS': True, #This mean DJango can look for a `templates` subdirectory in each of the  INSTALLED_APPS eg: LearnDjango/polls/templates,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',

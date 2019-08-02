@@ -1,4 +1,6 @@
 # https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view
+# 每一个 view 只做两件事: 返回一个请求页面内容的 HttpResponse 对象. 或者抛出一个异常.Http404.
+#
 from typing import Dict
 
 from django.db.models import QuerySet
@@ -9,32 +11,30 @@ from django.template import loader
 #to call the view, we need to map it to a URL - add for this we need a URLconf.
 #you need create the `/Users/zhanghongwei/Documents/GitHub-Tower/LearnDjango/polls/urls.py` 
 
-# Hard code htlm in view
-# def index(request):
-#     lasest_question_list = Question.objects.order_by('-pub_date')[:5]
-#     output = ', '.join([])
-#     return HttpResponse("Hello, world. You're at the polls index. ") 
-
-
-def index(request):
+# 这个html 内容和样子集成了. 不能区分, 要用 Templates 系统, 分离页面设计和内容...
+def index_old_1(request):
     lasest_question_list = Question.objects.order_by('-pub_date')[:5]
-    # the code loads template call `polls/index.html` and passes it a context
-    # the context is a dictionart mapping template variable names to Python objects
-    template = loader.get_template('polls/index.html')
-    # this is just a dictionary mapping tempalte variable names to Python objects
-    context: Dict[str, QuerySet[Question]] = {
-        'lasest_question_list': lasest_question_list,
-    }
-    return HttpResponse(template.render(context, request)) 
+    output: str = ', '.join([q.question_text for q in lasest_question_list])
+    return HttpResponse(output) #就是普通的 String, 可以直接返回给 HttpResponse 到页面.
 
-#https://docs.djangoproject.com/en/2.0/topics/http/shortcuts/#django.shortcuts.render
-from django.shortcuts import render
-# the same as index, but with shortcut: render()
-# load a template --> fill a context --> return HttpResponse object ==> render()
-def index2(request):
+# 用了 template 系统, 分离内容和样式,用 context 和 template 生成前端.
+def index_old_2(request):
+    latest_question_list = Question.objects.order_by('-pub_date')[:2]
+    template = loader.get_template('polls/index_old.html')
+    context = {
+        'latest_question_list': latest_question_list,
+    }
+    # template 用 render 渲染 html要用context 和 request 两个 parameters.
+    return HttpResponse(template.render(context, request))
+
+# https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial03/#a-shortcut-render
+# 载入模板, 填充上下文, 再返回由他生成的 HttpResponse对象. --> 快捷函数:render().
+def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
-    return render(request, 'polls/index.html', context) # no need load template and reneter it by it .
+    # render --> request+ template+ context are all in the same place, and it can show the return here.
+    # the context is just a Dict, it is an optional field.
+    return render(request, 'polls/index.html', context)
 
 
 from polls.models import Question, Choice
@@ -85,7 +85,8 @@ def mineOwnPratice(request):
     
     return HttpResponse(a32) 
 
-# the view only do two things: HttpResponse or an exception Http404. 
+# the view only do two things: HttpResponse or an exception Http404.
+# detail_old will get the requeset and question_id from webpage.
 def detail_old(request, question_id ):
     return HttpResponse("You are looking at question %s." % question_id)
 
