@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9013d380-8841-4030-a548-013c3fee7126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/polls/static/polls/images/background.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/polls/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/static/polls/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/polls/static/polls/style.css" afterDir="false" />
     </list>
     <list id="7446bfd4-9acf-44f2-ae78-ac7018a7631e" name="idea" comment="all the intellij setting" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,6 +106,7 @@
       <recent name="$PROJECT_DIR$/polls/templates/polls" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/polls/static/polls/images" />
       <recent name="$PROJECT_DIR$/polls" />
       <recent name="$PROJECT_DIR$/polls/templates/polls" />
       <recent name="$PROJECT_DIR$/HHH_test" />
@@ -399,7 +394,7 @@
       <workItem from="1564669898429" duration="1425000" />
       <workItem from="1564731162516" duration="3709000" />
       <workItem from="1564735254827" duration="9903000" />
-      <workItem from="1564748509338" duration="9516000" />
+      <workItem from="1564748509338" duration="9766000" />
     </task>
     <task id="LOCAL-00001" summary="https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
       <created>1536867226778</created>
@@ -562,16 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1564762367587</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Css and Images&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial06/#customize-your-app-s-look-and-feel">
+      <created>1564763558487</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564763558487</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -610,7 +604,8 @@
     <MESSAGE value="old style, back up" />
     <MESSAGE value="refactory the views and urls." />
     <MESSAGE value="Django Tests&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial05/#testing-the-detailview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django Tests&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial05/#testing-the-detailview" />
+    <MESSAGE value="Css and Images&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial06/#customize-your-app-s-look-and-feel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css and Images&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial06/#customize-your-app-s-look-and-feel" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_test_polls.coverage" NAME="python manage.py test polls Coverage Results" MODIFIED="1564757663749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
