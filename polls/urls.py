@@ -4,10 +4,18 @@ from . import views
 
 app_name = 'polls' # this is a Namespaing URL names. 这个 URL 有命名空间的.可以通过这个调用下面的 views
 
-# this just a normal variable
+# 开始重构,改良代码
+# urlpatterns = [
+#     path('', views.IndexView.as_view(), name='index'),
+#     path('<int:pk>/', views.DetailView.as_view(), name='detail'),
+#     path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
+#     path('<int:question_id>/vote/', views.vote, name='vote'),
+# ]
+
+
 urlpatterns = [
     # this is a path from `django.urls`, URLconf stuff.
-    # the path is passed 4 arguments: 
+    # the path is passed 4 arguments:
     # route  -> string, contains a URL pattern.
     # view   -> it is the function, with HttpRequest object as first argument, and any arguments.
     # kwargs -> Arbitrary keyword arguments can be passed in a dirctionry to the target view.
@@ -26,7 +34,7 @@ urlpatterns = [
     path('<int:question_id>/results/', views.results, name='results'),
     # ex: /polls/5/vote/
     path('<int:question_id>/vote/', views.vote, name='vote'),
-    
+
     # ex:/poll/mineOwnPratice/
     path('mineOwnPratice', views.mineOwnPratice, name="mineOwnPratice"),
 ]
