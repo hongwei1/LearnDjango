@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9013d380-8841-4030-a548-013c3fee7126" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/polls/static/polls/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/polls/static/polls/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
-    <list id="7446bfd4-9acf-44f2-ae78-ac7018a7631e" name="idea" comment="all the intellij setting" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +88,7 @@
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -124,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: polls.tests">
+  <component name="RunManager" selected="Python.runserver 8000">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -264,6 +265,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="LearnDjongo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="LearnDjango.setting" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <module name="LearnDjongo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,19 +321,19 @@
       <item itemvalue="Python.django-admin startproject mysite" />
       <item itemvalue="Python.python manage.py startapp polls" />
       <item itemvalue="Python.python manage.py sqlmigrate polls 0001" />
-      <item itemvalue="Python.python manage.py check " />
-      <item itemvalue="Python.python manage.py shell" />
       <item itemvalue="Python.python manage.py test polls" />
+      <item itemvalue="Django tests.Test: polls.tests" />
       <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests" />
       <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests.test_was_published_recently_with_recent_question" />
-      <item itemvalue="Django tests.Test: polls.tests" />
+      <item itemvalue="Python.python manage.py check " />
+      <item itemvalue="Python.python manage.py shell" />
+      <item itemvalue="Django server.Unnamed" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Django tests.Test: polls.tests" />
         <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests" />
         <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests.test_was_published_recently_with_recent_question" />
-        <item itemvalue="Django tests.test_was_published_recently_with_future_question" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +402,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9013d380-8841-4030-a548-013c3fee7126" name="Default Changelist" comment="" />
-      <changelist id="7446bfd4-9acf-44f2-ae78-ac7018a7631e" name="idea" comment="" />
       <created>1536866967461</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -394,7 +418,9 @@
       <workItem from="1564669898429" duration="1425000" />
       <workItem from="1564731162516" duration="3709000" />
       <workItem from="1564735254827" duration="9903000" />
-      <workItem from="1564748509338" duration="9766000" />
+      <workItem from="1564748509338" duration="10767000" />
+      <workItem from="1564766961627" duration="199000" />
+      <workItem from="1564773294699" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
       <created>1536867226778</created>
@@ -564,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564763558487</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added a todo, not sure why the css do not work">
+      <created>1564763622120</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1564763622120</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,11 +638,12 @@
     <MESSAGE value="refactory the views and urls." />
     <MESSAGE value="Django Tests&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial05/#testing-the-detailview" />
     <MESSAGE value="Css and Images&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial06/#customize-your-app-s-look-and-feel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Css and Images&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial06/#customize-your-app-s-look-and-feel" />
+    <MESSAGE value="added a todo, not sure why the css do not work" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a todo, not sure why the css do not work" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_test_polls.coverage" NAME="python manage.py test polls Coverage Results" MODIFIED="1564757663749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearnDjango$runserver_8000.coverage" NAME="runserver 8000 Coverage Results" MODIFIED="1564763504475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$runserver_8000.coverage" NAME="runserver 8000 Coverage Results" MODIFIED="1564767132742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_sqlmigrate_polls_0001.coverage" NAME="python manage.py sqlmigrate polls 0001 Coverage Results" MODIFIED="1564651631827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_makemigrations_polls.coverage" NAME="python manage.py makemigrations polls Coverage Results" MODIFIED="1564650840498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_check_.coverage" NAME="python manage.py check  Coverage Results" MODIFIED="1564659847091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
