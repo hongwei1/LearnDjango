@@ -86,6 +86,17 @@ DATABASES = {
     }
 }
 
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'api-manager',
+#        'USER': 'postgres',
+#        'PASSWORD': 'f',
+#        'HOST': 'localhost',
+#        'PORT': '5436',
+#    }
+# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators

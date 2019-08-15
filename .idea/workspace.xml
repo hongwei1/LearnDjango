@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9013d380-8841-4030-a548-013c3fee7126" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,19 +97,19 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/polls/templates/polls" />
+      <recent name="$PROJECT_DIR$/polls/static/polls/images" />
+      <recent name="$PROJECT_DIR$/polls" />
+      <recent name="$PROJECT_DIR$/HHH_test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/polls/static/polls/images" />
       <recent name="$PROJECT_DIR$/polls" />
       <recent name="$PROJECT_DIR$/polls/templates/polls" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/polls/static/polls/images" />
-      <recent name="$PROJECT_DIR$/polls" />
-      <recent name="$PROJECT_DIR$/polls/templates/polls" />
-      <recent name="$PROJECT_DIR$/HHH_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +312,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django server.Unnamed" />
       <item itemvalue="Django tests.test_was_published_recently_with_future_question" />
+      <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests" />
+      <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests.test_was_published_recently_with_recent_question" />
+      <item itemvalue="Django tests.Test: polls.tests" />
       <item itemvalue="Python.python manage.py migrate" />
       <item itemvalue="Python.runserver 8000" />
       <item itemvalue="Python.python manage.py makemigrations polls" />
@@ -321,13 +324,9 @@
       <item itemvalue="Python.django-admin startproject mysite" />
       <item itemvalue="Python.python manage.py startapp polls" />
       <item itemvalue="Python.python manage.py sqlmigrate polls 0001" />
-      <item itemvalue="Python.python manage.py test polls" />
-      <item itemvalue="Django tests.Test: polls.tests" />
-      <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests" />
-      <item itemvalue="Django tests.Test: polls.tests.QuestionModelTests.test_was_published_recently_with_recent_question" />
       <item itemvalue="Python.python manage.py check " />
       <item itemvalue="Python.python manage.py shell" />
-      <item itemvalue="Django server.Unnamed" />
+      <item itemvalue="Python.python manage.py test polls" />
     </list>
     <recent_temporary>
       <list>
@@ -421,6 +420,12 @@
       <workItem from="1564748509338" duration="10767000" />
       <workItem from="1564766961627" duration="199000" />
       <workItem from="1564773294699" duration="344000" />
+      <workItem from="1564816343444" duration="77000" />
+      <workItem from="1564816423124" duration="956000" />
+      <workItem from="1564988847635" duration="254000" />
+      <workItem from="1565515235580" duration="686000" />
+      <workItem from="1565522440379" duration="1000" />
+      <workItem from="1565687851075" duration="1762000" />
     </task>
     <task id="LOCAL-00001" summary="https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
       <created>1536867226778</created>
@@ -597,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564763622120</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="try Chinese lan">
+      <created>1564816374069</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1564816374070</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +651,8 @@
     <MESSAGE value="Django Tests&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial05/#testing-the-detailview" />
     <MESSAGE value="Css and Images&#10;&#10;https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial06/#customize-your-app-s-look-and-feel" />
     <MESSAGE value="added a todo, not sure why the css do not work" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a todo, not sure why the css do not work" />
+    <MESSAGE value="try Chinese lan" />
+    <option name="LAST_COMMIT_MESSAGE" value="try Chinese lan" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_test_polls.coverage" NAME="python manage.py test polls Coverage Results" MODIFIED="1564757663749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
