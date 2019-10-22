@@ -84,6 +84,7 @@
   <component name="ProjectId" id="1OmiubsUqTGw2WrPcWZRbj6k28a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -97,7 +98,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -426,6 +427,8 @@
       <workItem from="1565515235580" duration="686000" />
       <workItem from="1565522440379" duration="1000" />
       <workItem from="1565687851075" duration="1762000" />
+      <workItem from="1570614771905" duration="723000" />
+      <workItem from="1571732843438" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="https://docs.djangoproject.com/en/2.0/intro/tutorial01/">
       <created>1536867226778</created>
@@ -656,7 +659,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_test_polls.coverage" NAME="python manage.py test polls Coverage Results" MODIFIED="1564757663749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearnDjango$runserver_8000.coverage" NAME="runserver 8000 Coverage Results" MODIFIED="1564767132742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnDjango$runserver_8000.coverage" NAME="runserver 8000 Coverage Results" MODIFIED="1571732902528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_sqlmigrate_polls_0001.coverage" NAME="python manage.py sqlmigrate polls 0001 Coverage Results" MODIFIED="1564651631827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_makemigrations_polls.coverage" NAME="python manage.py makemigrations polls Coverage Results" MODIFIED="1564650840498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnDjango$python_manage_py_check_.coverage" NAME="python manage.py check  Coverage Results" MODIFIED="1564659847091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
