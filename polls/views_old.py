@@ -15,17 +15,17 @@ from django.template import loader
 def index_old_1(request):
     lasest_question_list = Question.objects.order_by('-pub_date')[:5]
     output: str = ', '.join([q.question_text for q in lasest_question_list])
-    return HttpResponse(output) #就是普通的 String, 可以直接返回给 HttpResponse 到页面.
+    return HttpResponse(output) #就是普通的 String, 可以直接返回给 HttpResponse 到页面. #1st only return the string
 
 # 用了 template 系统, 分离内容和样式,用 context 和 template 生成前端.
 def index_old_2(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:2]
-    template = loader.get_template('polls/index_old.html')
+    template = loader.get_template('polls/index_old.html') # we get this template from frontend
     context = {
         'latest_question_list': latest_question_list,
-    }
+    } # then we can update the template by this object.
     # template 用 render 渲染 html要用context 和 request 两个 parameters.
-    return HttpResponse(template.render(context, request))
+    return HttpResponse(template.render(context, request)) # then we can return this to the Django .return the request and the context
 
 # https://docs.djangoproject.com/zh-hans/2.2/intro/tutorial03/#a-shortcut-render
 # 载入模板, 填充上下文, 再返回由他生成的 HttpResponse对象. --> 快捷函数:render().
