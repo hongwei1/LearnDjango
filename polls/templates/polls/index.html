@@ -10,7 +10,7 @@
 {#            This is the hard code URL 用 view的名字代替 RUL的硬编码. #}
 {#              <a href="/polls/{{ question.id }}/"           >{{ question.question_text }}</a>#}
 {#              polls 是 URL名称的命名空间.不然有好多 detail, Django 就不知道哪个在这里调用了.#}
-                <a href="{% url 'polls:detail' question.id %}">{{ question.id }}:{{ question.question_text }}</a>
+                <a href="{% url 'polls:detail' question.id %}">{{ question.id }}:::::{{ question.question_text }}</a>
             </li>
         {% endfor %}
     </ul>
