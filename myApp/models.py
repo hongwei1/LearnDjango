@@ -9,8 +9,9 @@ class Grades(models.Model):
     isdelete = models.BooleanField(default=False)
     
     def __str__(self):
-        return "%s-%d-%d"%(self.gname, self.ggirlnum, self.gboynum)
-    
+        return self.gname
+
+
     
 class Students(models.Model):
     sname = models.CharField(max_length=20)
@@ -23,5 +24,5 @@ class Students(models.Model):
         "Grades",
         on_delete=models.CASCADE) #Since Django 2.x, on_delete is required.
     def __str__(self):
-        return "%s-%d-%d"%(self.sname, self.sgender, self.sage)
+        return self.sname
 
