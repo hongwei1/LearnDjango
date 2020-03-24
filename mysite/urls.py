@@ -25,6 +25,7 @@ urlpatterns = [
     #point the root URLconf for the polls.urls module.
     # the include() function allows referencing other URLconfs. 
     #   whenever Django encounters include(), it chops off whatever part of the URL matched up to that point.
-    #   and sends the remaining string to the included URLconf for further processing.
-    path('polls/', include('polls.urls'))
+    #   and sends the remaining string to the included URLconsf for further processing.
+    path('polls/', include('polls.urls')),
+    path(r'', include("myApp.urls")),# should always use include(), this is the only exception. 
 ]
