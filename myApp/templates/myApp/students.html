@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>students</title>
+</head>
+<body>
+<h1> Grades List</h1>
+<ul>
+    {% for student in students %}
+        <li>
+            <a href="{{ student.pk }}"> {{ student.sname }} </a>
+        </li>
+    {% endfor %}
+</ul>
+
+
+</body>
+</html>

@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.template import loader
 from django.utils import timezone
 from datetime import *
 
@@ -21,3 +22,35 @@ def detail(request, num):
 
 def detail2(request, num1, num2):
     return HttpResponse("detail---%s---%s"%(num1,num2))
+
+def grades(request):
+    grades = Grades.objects.all()
+    template = loader.get_template('myApp/grades.html') # we get this template from frontend
+    context = {
+        'grades': grades,
+    } # then we can update the template by this object.
+    # template 用 render 渲染 html要用context 和 request 两个 parameters.
+    return HttpResponse(template.render(context, request)) # then we can return this to the Django .return the request and the context
+
+def grade(request, pk):
+    grade = Grades.objects.get(pk=pk)
+    template = loader.get_template('myApp/grade.html') # we get this template from frontend
+    context = {
+        'grade': grade,
+    } # then we can update the template by this object.
+    # template 用 render 渲染 html要用context 和 request 两个 parameters.
+    return HttpResponse(template.render(context, request)) # then we can return this to the Django .return the request and the context    
+
+
+def students(request):
+    students = Students.objects.all()
+    return render(request, 'myApp/students.html', {
+        'students': students
+    })
+
+
+def student(request, pk):
+    student = Students.objects.get(pk=pk)
+    return render(request, 'myApp/student.html', {
+        'student': student
+    })
