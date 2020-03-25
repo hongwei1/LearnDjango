@@ -17,6 +17,12 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Hello world!!!")
 
+
+def index2(request):
+    # you must set the myApp folder for the index.html file:
+    # and as to the context, you can not find it 
+    return render(request,"myApp/index.html",{"Test":"Good Boy!!!"})
+
 def detail(request, num):
     return HttpResponse("detail-%s"%num)
 

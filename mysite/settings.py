@@ -61,7 +61,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True, #This mean DJango can look for a `templates` subdirectory in each of the  INSTALLED_APPS eg: LearnDjango/polls/templates,
+        'APP_DIRS': True, #This mean Django can look for a `templates` subdirectory in each of the  INSTALLED_APPS eg: LearnDjango/polls/templates,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
