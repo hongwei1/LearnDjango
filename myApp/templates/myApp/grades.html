@@ -10,6 +10,7 @@
 <ul>
     {% for grade in grades %}
     <li>
+        {# href 默认是本页的网址: http://127.0.0.1:8000/grades --> 然后在加上/pk 就是要跳转的网页了.!!    #}
         <a href="{{ grade.pk }}"> {{ grade.gname }} </a>
     </li>
     {% endfor %}
