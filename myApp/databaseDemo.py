@@ -65,3 +65,6 @@ stu47()
 
 # get the forein objects
 stu47.sgrade
+
+Students.stuObj2.all()
+# Students.stuObj.all()

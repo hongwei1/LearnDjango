@@ -1,5 +1,6 @@
 from django.contrib import admin
 
+# 这用来做站点管理的.
 # Register your models here.
 from .models import Grades, Students
 
@@ -8,13 +9,14 @@ from .models import Grades, Students
 class StudentsInfo(admin.TabularInline):  # 信件的 students 在同一行.
     model = Students
     extra = 2
-
+@admin.register(Grades)
 class GradesAdmin(admin.ModelAdmin):
     inlines = [StudentsInfo]
     # 列表页属性
     list_display = [  # before, this is only the toString, 现在可以显示各个字段,等信息
         "pk",
         "gname",
+        "gdescription",
         "gdate",
         "ggirlnum",
         "gboynum",
@@ -36,8 +38,9 @@ class GradesAdmin(admin.ModelAdmin):
     ]
 
     list_per_page = 3
+    
     # 
-    #  # 添加,修改页属性   
+    #  # 添加,修改页属性 , 一旦控制了哪些要添加,就得一直要控制了,就用默认值也挺好的.!!!
     #  属性的先后顺序
     # fields = [
     #     "gdate",
@@ -47,13 +50,13 @@ class GradesAdmin(admin.ModelAdmin):
     #     "isdelete",
     #     "pk"]
     # 给属性分组,不能和上面的同时使用
-    fieldsets = [
-        ("num", {"fields": ["gdate", "gname"]}),
-        ("base", {"fields": ["ggirlnum", "gboynum"]}),
-    ]
+    # fieldsets = [
+    #     ("num", {"fields": ["gdate", "gname","gdescription"]}),
+    #     ("base", {"fields": ["ggirlnum", "gboynum"]}),
+    # ]
 
 
-admin.site.register(Grades, GradesAdmin)
+# admin.site.register(Grades, GradesAdmin)
 
 
 @admin.register(Students)
@@ -71,10 +74,10 @@ class StudentsAdmin(admin.ModelAdmin):
         "pk",
         "sname",
          gender,
-        "scontend",
+        "lastTime",
         "isdelete",
     ]
-    list_per_page = 2
+    # list_per_page = 2
     
     # 控制 执行动作的位置.
     actions_on_bottom = True

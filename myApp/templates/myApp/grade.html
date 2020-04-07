@@ -12,8 +12,10 @@
     <li>grade: {{ grade.gdate }}</li>
     <li>girlnumber: {{ grade.ggirlnum }}</li>
     <li>bodyNumebr:{{ grade.gboynum }}</li>
+    <li>gfilefield:{{ grade.gfilefield.storage }}</li>
 </ul>
 
+<a href="{% url "grades-all" %}"> back to all </a>
 
 </body>
 </html>
